@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Welcome & Sign-in Container */
+.signin-container, .welcome-container {
+    background-color: #fff;
+    padding: 30px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Slightly wider */
+    text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input Fields */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Sign-In Button */
+.signin-button {
+    display: block; /* Ensures it takes full width */
+    width: 100%;
+    padding: 12px 0; /* Adjusted padding */
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px; /* Slightly larger text */
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 15px; /* Added margin for spacing */
+    transition: background 0.3s ease;
+}
+
+.signin-button:hover {
+    background-color: #0056b3;
+}
